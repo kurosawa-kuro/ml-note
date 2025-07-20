@@ -15,11 +15,13 @@ sudo apt install pipx
 pipx install jupyterlab
 ```
 
+pip install -U ipykernel
+
 ### 3. 必要なライブラリをJupyter Lab環境にインストール
 ```bash
 # Jupyter Lab環境に直接ライブラリをインストール
 /home/wsl/.local/share/pipx/venvs/jupyterlab/bin/python3 -m pip install \
-  duckdb pandas matplotlib seaborn numpy
+  duckdb pandas matplotlib seaborn numpy ipykernel
 ```
 
 ### 4. Jupyter Labを起動
